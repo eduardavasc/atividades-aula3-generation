@@ -7,7 +7,8 @@ public class atividade06 {
 	public static void main(String[] args) {
 		
 			Scanner leia = new Scanner(System.in);
-			int n, somaMultiplos3=0,contSomaMultiplos3=0, mediaDeMultiplos;
+			int n, somaMultiplos3=0,contSomaMultiplos3=0; 
+			float mediaDeMultiplos;
 
 
 			do {
@@ -19,7 +20,7 @@ public class atividade06 {
 				}
 			} while (n != 0);
 			
-			 mediaDeMultiplos = somaMultiplos3/contSomaMultiplos3;
+			 mediaDeMultiplos = (float)somaMultiplos3/contSomaMultiplos3;
 			System.out.println("A média dos números multiplos de 3 é: "+ mediaDeMultiplos);
 		}
 
